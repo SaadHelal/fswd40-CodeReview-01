@@ -1,0 +1,78 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+}
+.clear{
+    clear: both
+}
+body {
+    width: 80%;
+}
+header {
+    height: 100px;
+    background-color: #e05151;
+    min-width: 800px;
+}
+header img {
+    padding: 20px 10px;
+    float: left
+}
+header h2 {
+    line-height: 5;
+    color: white;
+}
+nav {
+    min-width: 400px;
+    height: 40px;
+    background-color: #868686;
+    margin: 2px 0
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px
+}
+nav ul li a {
+    text-decoration: none;
+    color: white
+}
+.block {
+    max-width: 50%;
+    float: left;
+    padding-top: 20px
+
+}
+section article p {
+    margin-top: 10px;
+    font-size: 30px
+}
+footer {
+    min-width: 400px;
+    height: 60px;
+    background-color: #e05151;
+}
+footer p {
+    padding-top: 25px;
+    line-height: 2;
+    color: white;
+    text-align: center
+}
+h1{
+    padding: 25px 5px;
+    font-size: 26px;
+}
+.info{ 
+    text-align: center;
+    font-size: 18px;
+}
+.courses article{
+    padding: 25px;
+    float: left;
+}
+.courses article a{
+    text-decoration: none;
+}
+.emoji{
+    font-size: 250px;
+    text-align: center;
+}
